@@ -5,23 +5,33 @@
 import { defineConfig } from './src/config';
 
 export default defineConfig({
-  id: "iriga",
-  kind: "city",
-  name: "Iriga City, Camarines Sur",
-  shortName: "Iriga",
+  id: "camarines-sur",
+  kind: "province",
+  name: "Province of Camarines Sur",
+  shortName: "Camarines Sur",
   operator: {
     name: "BetterIriga.org"
   },
   scope: {
-    offices: [],
+    offices: [
+      "Camarines Sur 1st District Engineering Office",
+      "Camarines Sur 2nd District Engineering Office",
+      "Camarines Sur 3rd District Engineering Office",
+      "Camarines Sur 4th District Engineering Office",
+      "Camarines Sur 5th District Engineering Office"
+    ],
     places: [
       {
-        label: "Iriga",
-        q: "Iriga",
+        label: "Camarines Sur",
+        q: "Camarines Sur",
         region: "V"
       }
     ],
     districts: [
+      "leg:camarines-sur:1st",
+      "leg:camarines-sur:2nd",
+      "leg:camarines-sur:3rd",
+      "leg:camarines-sur:4th",
       "leg:camarines-sur:5th"
     ],
     exclude: []
