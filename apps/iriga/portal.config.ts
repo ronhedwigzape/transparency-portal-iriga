@@ -10,8 +10,10 @@ export default defineConfig({
   name: "Iriga City, Camarines Sur",
   shortName: "Iriga",
   operator: {
-    name: "BetterIriga.org"
+    name: "BetterIriga.org",
+    url: "https://betteririga.org"
   },
+  siteUrl: "https://transparency-portal-iriga.betteririga.org",
   scope: {
     offices: [],
     places: [

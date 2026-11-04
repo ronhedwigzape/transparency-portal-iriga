@@ -10,8 +10,10 @@ export default defineConfig({
   name: "Province of Camarines Sur",
   shortName: "Camarines Sur",
   operator: {
-    name: "BetterIriga.org"
+    name: "BetterIriga.org",
+    url: "https://betteririga.org"
   },
+  siteUrl: "https://transparency-portal-camsur.betteririga.org",
   scope: {
     offices: [
       "Camarines Sur 1st District Engineering Office",

@@ -10,7 +10,8 @@ export default defineConfig({
   name: "Camarines Sur 5th District Engineering Office",
   shortName: "Camarines Sur 5th DEO",
   operator: {
-    name: "BetterIriga.org"
+    name: "BetterIriga.org",
+    url: "https://betteririga.org"
   },
   scope: {
     offices: [
